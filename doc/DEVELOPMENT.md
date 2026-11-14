@@ -1,11 +1,16 @@
 # Development
 
-> Status: pre-implementation · Last reviewed 2026-11-14 · Related:
+> Status: frontend MVP in progress · Last reviewed 2026-11-14 · Related:
 > [CODE_STYLES.md](CODE_STYLES.md) · [ARCHITECTURE.md](ARCHITECTURE.md) ·
 > [DEPLOYMENT.md](DEPLOYMENT.md)
 
 This document is for running the project locally and shipping a change. Product planning lives in
 [README.md](../README.md); screens are in [PAGES.md](PAGES.md).
+
+**Current state:** `frontend/` contains an Angular 22 + Leaflet MVP with one hard-coded university
+(University of Washington) and two hard-coded Seattle churches. It has no backend, no database and no
+report form yet. Run it with `cd frontend`, `npm install`, `npm start`. The backend and Gradle
+scaffold described below are still planned, not implemented.
 
 ## 1. Planned repository layout
 
